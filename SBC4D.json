@@ -7,7 +7,7 @@
             "name": "HDI_rank",
             "title": "Rang de chaque HDI",
             "type": "integer",
-            "description": "Classement de chaque pays dans le niveau de développement."
+            "description": "Classement de chaque pays par niveau de développement."
         },
         {
             "name": "Human_developpement_level",
@@ -52,5 +52,5 @@
             "description": "Année au cours de laquelle les pays ont aboli partiellement ou complètement la peine de mort."
         }
     ],
-    "missingValues": ["NaN", ".."]
+    "missingValues": ["NaN", "..", "(.)"]
 }
