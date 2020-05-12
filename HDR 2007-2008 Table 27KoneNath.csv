@@ -1,4 +1,4 @@
-﻿HDI rank;Human developpement level;Country;Intentional homicidesa                 (per 100,000 people)                         2000-04c;Prison_population                 Total                   2007d;Prison_population         (per 100,000 people)                        2007d;Prison_population                 Female                         (% of total)             2007e;Year in which countries have partially or completely abolished the death penaltyb;
+﻿HDI_rank;Human_developpement_level;Country;Intentional_homicides_per_100000_people_2004;Prison_population_Total_2007;Prison_population_per_100000_2007;Prison_population_Female_%_of_total;Year_in_which_countries_have_partially_or_completely_abolished_the_death_penalt;
 1;HIGH ;Iceland;1,0; 119 ; 40 ;6;1928;
 2;HIGH ;Norway;0,8; 3 048 ; 66 ;5;1979;
 3;HIGH ;Australia;1,3; 25 353 ; 126 ;7;1985;
