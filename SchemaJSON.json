@@ -1,0 +1,83 @@
+{
+	"name":"Engagements_en_matière_de_santé",
+	"description":"Engagements en matière de santé"
+	"fields": [
+		{
+			"name":"HDI_rank",
+			"type": "integer",
+			"description": "Classement en fonction de l’Indice de Développement Humain"
+		},
+	
+		{
+			"name":"HDI_level",
+			"type": "string",
+			"description": "Cette colonne correspond au niveau de développement humain.",
+			"constraints": {
+                "enum": [
+				       "HIGH", "MEDIUM", "LOW"
+					   ]
+			}
+		},
+	
+		{
+			"name":"Countries",
+			"type": "string",
+			"description": "Liste des 177 pays membres des Nation Unies pour lesquels l'Indice de Développement Humain a été calculé"
+		},
+	
+		{
+			"name":"Health_expenditure_Public(%)",
+			"type": "number",
+			"description": "Dépenses en matière de santé public (% du PNB) 2004 PNB : Produit National Brut"
+		},
+	
+		{
+			"name":"Health_expenditure_Private(%)",
+			"type": "number",
+			"description": "Dépenses en matière de santé privé (% du PNB) 2004 PNB : Produit National Brut"
+		},
+	
+		{
+			"name":"Health_expenditure_Per_capita(PPA)",
+			"type": "number",
+			"description": "Dépenses en matière de santé par habitants (PPA USD) 2004 PPA : Parité du Pouvoir d’Achat"
+		},
+	
+		{
+			"name":"One_year_olds_fully_immunized_Against_tuberculosis(%)_2005",
+			"type": "number",
+			"description": "Enfants d’un an totalement Immunisés contre la tuberculose (%) 2005 (OMD) OMD : Objectif du Millénaire pour le Développement"
+		},
+	
+		{
+			"name":"One_year_olds_fully_immunized_Against_measles(%)",
+			"type": "number",
+			"description": "Enfants d’un an totalement Immunisés contre la rougeole (%) 2005 (OMD) OMD : Objectif du Millénaire pour le Développement"
+		},
+	
+		{	
+			"name":"Child_diarr_receiv_oral_rehydration(%_under_age_5)",
+			"type": "number",
+			"description": "Enfants souffrants de diarrhée recevant des thérapies de réhydratation et d’alimentation continue (% des moins de 5 ans) 1998-2005"
+		},
+	
+		{
+			"name":"Contraceptive_prevalence_rate(%)",
+			"type": "number",
+			"description": "Taux de prévalence de la contraceptiona (% des femmes mariées de 15 à 49 ans) 1997-2005 b (OMD) OMD : Objectif du Millénaire pour le Développement"
+		},
+	
+		{
+			"name":"Births_attended_by_skilled_health_personnel(%)",
+			"type": "number",
+			"description": "Accouchements avec les soins d'un personnel de santé qualifié (%) 1997-2005 b (OMD) OMD : Objectif du Millénaire pour le Développement"
+		},
+	
+		{
+			"name":"Physicians_per_100000_people",
+			"type": "integer",
+			"description": "Médecins (pour 100 000 habitants) 2000-04 "
+		}
+	],
+	"missingValues": ["NaN", "..", "(.)"]
+}
