@@ -13,7 +13,7 @@
             "name": "Human_developpement_level",
             "title": "Human Developpement level",
             "type": "string",
-            "description": "Niveau de développement de chaque pays."
+            "description": "Niveau de développement de chaque pays.",
 			"constraints":{
 				"enum":[
 				    "HIGH","LOW","MEDIUM"
