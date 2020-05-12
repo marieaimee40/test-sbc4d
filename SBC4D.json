@@ -1,0 +1,56 @@
+{
+    "name": "sbc4d_schema",
+    "title": "SBC4D Schema",
+    "description": "Essai",
+    "fields": [
+        {
+            "name": "HDI_rank",
+            "title": "Rang de chaque HDI",
+            "type": "integer",
+            "description": "Classement de chaque pays dans le niveau de développement."
+        },
+        {
+            "name": "Human_developpement_level",
+            "title": "Human Developpement level",
+            "type": "string",
+            "description": "Niveau de développement de chaque pays."
+        },
+        {
+            "name": "country",
+            "title": "Pays",
+            "type": "String",
+            "description": "Nom d'un pays."
+        },
+        {
+            "name": "Intentional_homicides_per_100000_people_2004",
+            "title": "Intentional homicides (per 100,000 people) 2000-04",
+            "type": "Number",
+            "description": "De 2000 à 2004 : Collecte de données de 100 000 personnes sur les homicides intentionnels en raison des différences dans la définition juridique des infractions."
+        },
+        {
+            "name": "Prison_population_Total_2007",
+            "title": "Prison population   Total  2007",
+            "type": "Integer",
+            "description": "Le nombre total de personnes carcérées durant le mois de janvier 2007."
+        },
+        {
+            "name": "Prison_population_per_100000_2007",
+            "title": "Prison population (per 100,000 people) 2007d",
+            "type": "integer",
+            "description": "La collecte de données de 100000 personnes carcérées en janvier 2007."
+        },
+        {
+            "name":"Prison_population_Female_%_of_total",
+            "title": "Prison_population  Female  (% of total)",
+            "type": "integer",
+            "description": "Collecte des données de Mais 2007 sur le pourcentage total de la population féminine carcérale"
+        },
+        {
+            "name": "Year_in_which_countries_have_partially_or_completely_abolished_the_death_penalty",
+            "title": "Year in which countries have partially or completely abolished the death penalty",
+            "type": "integer",
+            "description": "Année au cours de laquelle les pays ont aboli partiellement ou complètement la peine de mort."
+        }
+    ],
+    "missingValues": ["NaN", ".."]
+}
