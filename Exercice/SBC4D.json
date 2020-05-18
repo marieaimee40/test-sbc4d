@@ -1,0 +1,56 @@
+{
+    "created": "2020-05-19",
+    "description": "Essai",
+    "fields": [
+        {
+            "constraints": {
+                "required": true
+            },
+            "description": "Official country names",
+            "name": "country_name",
+            "title": "Country Name",
+            "type": "string"
+        },
+        {
+            "constraints": {
+                "category": [
+                    {
+                        "name": "HIGH"
+                    },
+                    {
+                        "name": "LOW"
+                    },
+                    {
+                        "name": "MEDIUM"
+                    }
+                ],
+                "required": true
+            },
+            "description": "Human Development Index Category derived from the HDI Rank",
+            "name": "hdi_category",
+            "title": "HDI Category",
+            "type": "string"
+        },
+        {
+            "description": "Indicator described in the data series",
+            "name": "indicator_name",
+            "title": "Indicator Name",
+            "type": "string"
+        },
+        {
+            "description": "Value for the Year and Indicator Name",
+            "name": "values",
+            "title": "Values",
+            "type": "number"
+        },
+        {
+            "description": "Reference to data source.",
+            "name": "reference",
+            "title": "Reference",
+            "type": "string"
+        }
+    ],
+    "name": "sbc4d_schema",
+    "title": "SBC4D Schema",
+    "updated": "2020-05-19"
+}
